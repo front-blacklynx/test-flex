@@ -21,6 +21,7 @@ h1,h2,h3,p {
 }
 a{
     text-decoration: none;
+ 
 }/* обнуление */
 
 .body-container{
@@ -38,8 +39,6 @@ a{
 
 .logo{
     display: inline-block;
-    width: 31px;
-
 }
 .logo-blue{
     display: inline-block;
@@ -65,13 +64,21 @@ a{
   display:inline-block;
 }
 .nav-link{
+display: inline-block;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #212121;
 
-    display: inline-block;
 }
 .address{
 display: inline-block;
 }
 .addr-link{
 display: inline-block;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
 } 
 
