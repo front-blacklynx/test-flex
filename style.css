@@ -78,7 +78,7 @@ color: #212121;
 .nav-link:hover{
     color: #2196F3;
 }
-.address{
+.address-top{
 display:flex;
 width: 300px;
 flex-direction:row;
@@ -90,4 +90,179 @@ color: #757575;
 }
 .addr-link:hover{
     color: #2196F3;
+}
+
+/* секция 1 */
+.hero{
+display: block;
+width: 696px;
+height: 120px;
+font-family: 'Roboto';
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+width: 1600px;
+height: 600px;
+/* or 136% */
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: #FFFFFF;
+background: #2F303A;
+padding-top: 200px;
+padding-bottom: 280px;
+padding-left: 452px;
+padding-right: 452px;
+}
+/* секция 2 */
+.Benefits{
+    display: flex;
+    flex-direction: row;
+ justify-content: center;
+ text-align: center;
+ padding: 94px 215px;
+}
+.subtitle{
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+padding-top: 10px;
+
+color: #212121;
+}
+.short-description{
+    width: 270px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/* секция3 */
+.description{
+    font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+padding-bottom: 50px;
+color: #212121;
+
+}
+.presentation{
+   display: flex;
+   padding-left: 215px;
+   padding-right: 215px;
+   padding-bottom: 94px;
+   justify-content:center;
+}
+/* секция 4 */
+.team{
+    
+padding-top: 94px;
+height: 648px;
+left: 0px;
+top: 1449px;
+justify-content: center;
+text-align: center;
+
+background: #F5F4FA;
+}
+.team-title{
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+padding-bottom: 50px;
+color: #212121;
+}
+.group-team{
+   display: flex; 
+   text-align: center;
+   padding-left: 215px;
+   padding-right: 215px;
+   padding-bottom: 94px;
+   justify-content: space-around;
+}
+.name-team{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.description-team{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+.form{
+    width: 270px;
+height: 368px;
+background: #FFFFFF;
+/* material shadow v1 */
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+
+}
+.foto-form{
+width: 270px;
+height: 260px;
+
+}
+/* подвал */
+
+
+footer{
+height: 252px;
+background: #2F303A;
+
+}
+.logo-footer{
+padding-left: 215px;
+padding-top: 60px;
+padding-bottom: 20px;
+}
+
+.logo-foot-blue{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.logo-foot-white{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+/* identical to box height */
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.address-footer{
+    
+    display:flex;
+    flex-direction: column;
+    padding-left: 215px;
+    padding-bottom:60px;
+}
+.add-link-foot{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.add-link-foot:hover{
+    color: #FFFFFF;
 }
