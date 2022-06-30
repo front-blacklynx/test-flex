@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #212121;
+    font-weight: 400;
+    
+}
+*{
+    box-sizing: border-box;
+    
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+h1,h2,h3,p {
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}/* обнуление */
+
+.body-container{
+    width: 100%;
+}
+
+
+.logo{
+    display: inline-block;
+   
+
+}
+.logo-blue{
+    display: inline-block;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    
+}
+.logo-black{
+    display: inline-block;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+/* конец логотипа */ 
+.navigation{
+  display:inline-block;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav-link{
+
+    display: inline-block;
+}
+.address{
+display: inline-block;
+}
+.addr-link{
+display: inline-block;
+} 
+
+header{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 90%;
+}
