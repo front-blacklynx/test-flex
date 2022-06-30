@@ -24,17 +24,21 @@ a{
 }/* обнуление */
 
 .body-container{
-    width: 100%;
     display: flex;
+    width:1200px;
+    height: 80px;
     justify-content:space-around;
     flex-direction: row;
-    width: 90%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
 }
 
 
 .logo{
     display: inline-block;
-   
+    width: 31px;
 
 }
 .logo-blue{
@@ -59,8 +63,6 @@ a{
 /* конец логотипа */ 
 .navigation{
   display:inline-block;
-  flex-direction: row;
-  justify-content: center;
 }
 .nav-link{
 
@@ -73,6 +75,3 @@ display: inline-block;
 display: inline-block;
 } 
 
-header{
- /* margin: 0 auto; */
-}
