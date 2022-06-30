@@ -39,6 +39,7 @@ a{
 
 .logo{
     display: inline-block;
+    text-transform: none;
 }
 .logo-blue{
     display: inline-block;
@@ -48,7 +49,7 @@ a{
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
-    
+  
 }
 .logo-black{
     display: inline-block;
@@ -61,7 +62,11 @@ a{
 }
 /* конец логотипа */ 
 .navigation{
-  display:inline-block;
+  display:flex;
+  width: 270px;
+  flex-direction:row;
+  justify-content:space-around;
+  
 }
 .nav-link{
 display: inline-block;
@@ -69,16 +74,20 @@ font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: #212121;
-
+}
+.nav-link:hover{
+    color: #2196F3;
 }
 .address{
-display: inline-block;
-}
-.addr-link{
-display: inline-block;
+display:flex;
+width: 300px;
+flex-direction:row;
+justify-content: space-around;
 font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
 color: #757575;
-} 
-
+}
+.addr-link:hover{
+    color: #2196F3;
+}
