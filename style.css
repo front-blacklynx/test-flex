@@ -29,7 +29,7 @@ a{
     display: flex;
     width:1200px;
     height: 80px;
-    justify-content:space-around;
+    justify-content:space-between;
     flex-direction: row;
     margin: 0 auto;
     padding-left: 15px;
@@ -66,7 +66,7 @@ a{
   display:flex;
   width: 270px;
   flex-direction:row;
-  justify-content:space-around;
+  justify-content:space-between;
   
 }
 .nav-link{
@@ -83,7 +83,7 @@ color: #212121;
 display:flex;
 width: 300px;
 flex-direction:row;
-justify-content: space-around;
+justify-content: space-between;
 font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
@@ -93,6 +93,7 @@ color: #757575;
     color: #2196F3;
 }
 .hero-black{
+width: 1200px;
 height: 600px;
 left: 0px;
 top: 80px;
@@ -102,15 +103,15 @@ background: #2F303A;
 /* секция 1 */
 .hero{
 display: block;
-
+width: 1200px;
+height: 120px;
     padding-top: 200px;
     padding-bottom: 280px;
-    padding-left: 452px;
-    padding-right: 452px;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     text-align: center;
+  
     letter-spacing: 0.06em;
     text-transform: uppercase;
     
@@ -170,10 +171,8 @@ color: #212121;
 .presentation{
     width: 1200px;
    display: flex;
-   padding-left: 15px;
-   padding-right: 15px;
    padding-bottom: 94px;
-   justify-content:space-around;
+   justify-content:space-between;
 }
 /* секция 4 */
 .team{
@@ -201,8 +200,6 @@ color: #212121;
     width: 1200px;
    display: flex; 
    text-align:justify;
-   padding-left: 15px;
-   padding-right: 15px;
    padding-bottom: 94px;
    justify-content: space-between;
 }
@@ -222,7 +219,6 @@ color: #212121;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    
     color: #757575;
 }
 .form{
@@ -243,7 +239,7 @@ height: 260px;
 
 
 footer{
-    width: 1200px;
+width: 1200px;
 height: 252px;
 background: #2F303A;
 
