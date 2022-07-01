@@ -27,16 +27,16 @@ a{
 
 .body-container{
     display: flex;
-    width:1200px;
-    height: 80px;
     justify-content:space-between;
     flex-direction: row;
+    align-items: center;
+}
+.container{
+    width:1200px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    align-items: center;
 }
-
 
 .logo{
     display: inline-block;
@@ -123,8 +123,10 @@ height: 120px;
     flex-direction: row;
  justify-content: center;
  text-align: center;
- padding: 94px 215px;
+ padding-top:94px;
+ padding-bottom: 94px;
 }
+
 .subtitle{
 font-weight: 700;
 font-size: 14px;
@@ -143,7 +145,6 @@ color: #757575;
 }
 /* секция3 */
 .description-title{
-width: 1200px;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
@@ -169,21 +170,16 @@ color: #212121;
 
 }
 .presentation{
-    width: 1200px;
    display: flex;
    padding-bottom: 94px;
    justify-content:space-between;
 }
 /* секция 4 */
-.team{
-    width: 1200px;   
+.team{  
 padding-top: 94px;
 height: 648px;
-left: 0px;
-top: 1449px;
 justify-content: center;
 text-align: center;
-
 background: #F5F4FA;
 }
 .team-title{
@@ -197,7 +193,6 @@ padding-bottom: 50px;
 color: #212121;
 }
 .group-team{
-    width: 1200px;
    display: flex; 
    text-align:justify;
    padding-bottom: 94px;
@@ -224,8 +219,7 @@ color: #212121;
 .form{
     width: 270px;
 height: 368px;
-background: #FFFFFF;
-/* material shadow v1 */
+
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 
@@ -239,13 +233,11 @@ height: 260px;
 
 
 footer{
-width: 1200px;
 height: 252px;
 background: #2F303A;
 
 }
 .logo-footer{
-padding-left: 215px;
 padding-top: 60px;
 padding-bottom: 20px;
 }
@@ -273,7 +265,6 @@ color: #FFFFFF;
     
     display:flex;
     flex-direction: column;
-    padding-left: 215px;
     padding-bottom:60px;
 }
 .add-link-foot{
