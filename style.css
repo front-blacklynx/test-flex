@@ -79,6 +79,78 @@ color: #212121;
 .nav-link:hover{
     color: #2196F3;
 }
+
+
+.nav-portfolio-link{
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+padding: 6px 22px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+.nav-portfolio-link:hover{
+    color: #FFFFFF;
+    background: #2196F3;
+/* border-radius: 4px; */
+}
+.nav-portfolio{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 174px;
+    margin-bottom: 56px;
+}
+
+.portfolio{
+    
+display: flex;
+width: 1200px;
+justify-content: space-around;
+text-align: left;
+margin-bottom: 94px;
+flex-direction: row;
+align-items: center;
+flex-wrap: wrap;
+}
+.portfolio-box{
+ border: 1px solid #EEEEEE;
+ width: 370px;
+height: 404px;
+}
+.photography-portfolio{
+width: 370px;
+height: 294px;
+}
+.portfolio-name{
+width: 322px;
+font-weight: 700;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+
+color: #212121;
+}
+.portfolio-description{
+    width: 322px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+
+
+
+
+
+
 .address-top{
 display:flex;
 width: 300px;
