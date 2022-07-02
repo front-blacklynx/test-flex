@@ -109,7 +109,7 @@ border-radius: 4px;
 .portfolio{
     
 display: flex;
-width: 1200px;
+width: 100%;
 justify-content: space-around;
 text-align: left;
 margin-bottom: 94px;
