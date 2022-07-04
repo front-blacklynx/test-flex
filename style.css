@@ -168,33 +168,30 @@ color: #757575;
 }
 
 .addr-link::before {
+    display: block;
 content: '';
 width: 20px;
 height: 20px;
-background-color: rgb(181, 13, 13);
 margin-right: 10px;
-border: #ec2222 1 px solid;
     background-image: url(./svg/Vector.png);
     background-position: center; 
     background-repeat: no-repeat;
     background-size:contain;
     text-align: center;
-     justify-content: center;
      cursor: pointer;
 
   }
 .beforre::before {
+    display: block;
     content: '';
   width: 20px;
   height: 12px;
-  border: #ec2222 1 px solid;
-  background-image: url(./svg/an.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:cover;
-    text-align: center;
-    justify-content: center;
-    cursor: pointer;
+  background-image: url(../svg/an.png);
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size:cover; */
+    /* text-align: center; */
+    /* cursor: pointer; */
   }
 
 
