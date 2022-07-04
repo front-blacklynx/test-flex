@@ -392,6 +392,7 @@ a {
 
 /* секция 4 */
 .team {
+    width: 100%;
     padding-top: 94px;
     height: 648px;
     justify-content: center;
@@ -455,6 +456,7 @@ a {
 /* подвал */
 
 footer {
+    width: 100%;
     height: 252px;
     background: #2f303a;
 }
