@@ -153,11 +153,11 @@ color: #212121;
 
 .address-top{
 display:flex;
-width: 300px;
 flex-direction:row;
 justify-content: space-between;
 }
 .addr-link{
+    margin-right: 20px;
     font-weight: 500;
 line-height: 16px;
 letter-spacing: 0.02em;
@@ -168,7 +168,7 @@ color: #757575;
 }
 
 .addr-link::before {
-    display: block;
+display: inline-block;
 content: '';
 width: 20px;
 height: 20px;
@@ -181,18 +181,65 @@ margin-right: 10px;
      cursor: pointer;
 
   }
+  
 .beforre::before {
-    display: block;
+    display: inline-block;
     content: '';
-  width: 20px;
-  height: 12px;
-  background-image: url(../svg/an.png);
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size:cover; */
-    /* text-align: center; */
-    /* cursor: pointer; */
+    /* width: 270px;
+    height: 120px; */
+    background: #F5F4FA;
+    border-radius: 4px;
+   
   }
+  .bef-1::before {
+    display: inline-block;
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-image: url(./svg/an.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:contain;
+    text-align: center;
+    cursor: pointer;
+  }
+.bef-2::before {
+    display: inline-block;
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-image: url(./svg/Vector.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    cursor: pointer;
+}
+.bef-3::before {
+    display: inline-block;
+    content: '';
+    width: 70px;
+    height: 70px;
+    background-image: url(./svg/diagram\ 1.png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    cursor: pointer;
+}
+    
+.bef-4::before {
+    display: inline-block;
+    content: '';
+    width: 60px;
+    height: 70px;
+    background-image: url(./svg/Vector\ \(1\).png);
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+    cursor: pointer;
+}
 
 
 
