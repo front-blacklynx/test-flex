@@ -614,5 +614,6 @@ footer {
 
 .join-social {
     display: flex;
+    flex-direction: column;
 
 }
