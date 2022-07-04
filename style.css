@@ -135,6 +135,13 @@ a {
     border: 1px solid #eeeeee;
     width: 370px;
     height: 404px;
+    margin-bottom: 30px;
+}
+
+.portfolio-box:hover {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .photography-portfolio {
@@ -455,10 +462,12 @@ footer {
 
 .logo-footer {
     padding-top: 60px;
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo-foot-blue {
+    display: inline-block;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -468,7 +477,13 @@ footer {
     color: #2196f3;
 }
 
+.flex-logo {
+    display: flex;
+    padding-bottom: 20px;
+}
+
 .logo-foot-white {
+    display: inline-block;
     font-family: "Raleway";
     font-weight: 700;
     font-size: 26px;
@@ -479,7 +494,7 @@ footer {
 }
 
 .address-footer {
-    display: flex;
+
     flex-direction: column;
     padding-bottom: 60px;
 }
@@ -494,4 +509,110 @@ footer {
 
 .add-link-foot:hover {
     color: #ffffff;
+}
+
+.footer-old {
+    display: flex;
+}
+
+.join,
+.joing {
+    display: flex;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-top: 72px;
+    margin-left: 150px;
+
+    color: #FFFFFF;
+}
+
+.instagram {
+
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+
+}
+
+.twitter {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+}
+
+.facebook {
+    display: inline-block;
+}
+
+.linkedin {
+    display: inline-block;
+}
+
+.instagram::after {
+    display: inline-block;
+    content: "";
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-image: url(./svg/instagram\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.twitter::after {
+    display: inline-block;
+    content: "";
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-image: url(./svg/Vector0\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.facebook::after {
+    display: inline-block;
+    content: "";
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-image: url(./svg/Vector02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.linkedin::after {
+    display: inline-block;
+    content: "";
+    background: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-image: url(./svg/linkedin\ 103.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    text-align: center;
+    cursor: pointer;
+}
+
+.join-social {
+    display: flex;
+
 }
