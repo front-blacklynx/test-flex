@@ -216,6 +216,9 @@ a {
     cursor: pointer;
 }
 
+
+
+
 .bef-1::before {
 
     display: inline-block;
@@ -618,4 +621,24 @@ footer {
     flex-direction: column;
     /* margin-bottom: 75px; */
 
+}
+
+.instagram:hover {
+    background: #2196f3;
+    border-radius: 50px;
+}
+
+.twitter:hover {
+    background: #2196f3;
+    border-radius: 50px;
+}
+
+.facebook:hover {
+    background: #2196f3;
+    border-radius: 50px;
+}
+
+.linkedin:hover {
+    background: #2196f3;
+    border-radius: 50px;
 }
