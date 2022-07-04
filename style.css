@@ -200,7 +200,7 @@ color: #757575;
     align-items: center;
 margin: 0 auto;
 top: 80px;
-background-image: url(../foto/im.jpg);
+background-image: url(./foto/im.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
