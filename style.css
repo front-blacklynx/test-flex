@@ -180,8 +180,7 @@ a {
 .addr-link::before {
     display: inline-block;
     content: "";
-    width: 20px;
-    height: 20px;
+    width: 100%;
     margin-right: 10px;
     background-image: url(./svg/Vector.png);
     background-position: center;
@@ -192,6 +191,7 @@ a {
 }
 
 .beforre::before {
+    width: 100%;
     display: inline-block;
     content: "";
     /* width: 270px;
@@ -202,13 +202,13 @@ a {
 
 .bef-1::before {
     display: inline-block;
+    width: 100%;
     content: "";
-    width: 70px;
-    height: 70px;
+
     background-image: url(./svg/an.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+
     text-align: center;
     cursor: pointer;
 }
@@ -216,12 +216,11 @@ a {
 .bef-2::before {
     display: inline-block;
     content: "";
-    width: 70px;
-    height: 70px;
+    width: 100%;
+
     background-image: url(./svg/Vector.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
     cursor: pointer;
 }
@@ -229,12 +228,10 @@ a {
 .bef-3::before {
     display: inline-block;
     content: "";
-    width: 70px;
-    height: 70px;
+    width: 100%;
     background-image: url(./svg/diagram\ 1.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
     cursor: pointer;
 }
@@ -242,12 +239,10 @@ a {
 .bef-4::before {
     display: inline-block;
     content: "";
-    width: 60px;
-    height: 70px;
+    width: 100%;
     background-image: url(./svg/Vector\\(1\).png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     text-align: center;
     cursor: pointer;
 }
