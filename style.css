@@ -190,15 +190,6 @@ a {
     cursor: pointer;
 }
 
-.beforre::before {
-    width: 100%;
-    display: inline-block;
-    content: "";
-    /* width: 270px;
-    height: 120px; */
-    background: #f5f4fa;
-    border-radius: 4px;
-}
 
 .bef-1::before {
     display: inline-block;
@@ -208,7 +199,8 @@ a {
     background-image: url(./svg/an.png);
     background-position: center;
     background-repeat: no-repeat;
-
+    background: #f5f4fa;
+    border-radius: 4px;
     text-align: center;
     cursor: pointer;
 }
@@ -217,7 +209,8 @@ a {
     display: inline-block;
     content: "";
     width: 100%;
-
+    background: #f5f4fa;
+    border-radius: 4px;
     background-image: url(./svg/Vector.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -229,17 +222,22 @@ a {
     display: inline-block;
     content: "";
     width: 100%;
+    background: #f5f4fa;
+    border-radius: 4px;
     background-image: url(./svg/diagram\ 1.png);
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     cursor: pointer;
+
 }
 
 .bef-4::before {
     display: inline-block;
     content: "";
     width: 100%;
+    background: #f5f4fa;
+    border-radius: 4px;
     background-image: url(./svg/Vector\ \(1\).png);
     background-position: center;
     background-repeat: no-repeat;
