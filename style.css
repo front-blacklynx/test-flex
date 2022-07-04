@@ -216,65 +216,61 @@ a {
     cursor: pointer;
 }
 
-
-.bef {
-    width: 270px;
-    height: 120px;
-    background: #f5f4fa;
-    border-radius: 4px;
-    /* margin: 20px; */
-}
-
 .bef-1::before {
+
     display: inline-block;
     content: "";
-    width: 67px;
-    height: 70px;
-
-    /* background: #f5f4fa; */
-
+    background: #f5f4fa;
+    border-radius: 4px;
+    width: 270px;
+    height: 120px;
     background-image: url(./svg/Vectorlupa.png);
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     cursor: pointer;
+    margin-right: 30px;
+
 }
 
 .bef-2::before {
     display: inline-block;
     content: "";
-    width: 67px;
-    height: 70px;
+    background: #f5f4fa;
     border-radius: 4px;
+    width: 270px;
+    height: 120px;
     background-image: url(./svg/Vector.png);
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     cursor: pointer;
+    margin-right: 30px;
 }
 
 .bef-3::before {
     display: inline-block;
     content: "";
-    width: 100%;
-    height: 70px;
     background: #f5f4fa;
     border-radius: 4px;
+    width: 270px;
+    height: 120px;
     background-image: url(./svg/diagram\ 1.png);
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     cursor: pointer;
+    margin-right: 30px;
 
 }
 
 .bef-4::before {
     display: inline-block;
     content: "";
-    width: 100%;
-    height: 70px;
     background: #f5f4fa;
     border-radius: 4px;
+    width: 270px;
+    height: 120px;
     background-image: url(./svg/Vector\ \(1\).png);
     background-position: center;
     background-repeat: no-repeat;
