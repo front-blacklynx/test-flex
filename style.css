@@ -658,47 +658,47 @@ footer {
 .icon-inst {
     width: 20px;
     height: 20px;
-    fill: #757575;
+    fill: currentColor;
 }
 
-.icon-inst:hover {
+/* .icon-inst:hover {
     fill: #ffffff;
-
-}
+    background: #2196f3;
+} */
 
 .icon-twitter {
     width: 20px;
     height: 16px;
-    fill: #757575;
+    fill: currentColor;
 }
 
-.icon-twitter:hover {
+/* .icon-twitter:hover {
     fill: #ffffff;
 
 
-}
+} */
 
 .icon-facebook {
     width: 10px;
     height: 20px;
-    fill: #757575;
+    fill: currentColor;
 }
 
-.icon-facebook:hover {
+/* .icon-facebook:hover {
     fill: #ffffff;
 
-}
+} */
 
 .icon-linkendin {
     width: 20px;
     height: 20px;
-    fill: #757575;
+    fill: currentColor;
 }
 
-.icon-linkendin:hover {
+/* .icon-linkendin:hover {
     fill: #ffffff;
 
-}
+} */
 
 .icon-box {
     display: inline-flex;
@@ -709,12 +709,11 @@ footer {
     text-align: center;
     margin-top: 16px;
     margin-bottom: 30px;
-    background: #f5f4fa;
+    color: #AFB1B8;
     border-radius: 50px;
-
-
 }
 
 .icon-box:hover {
+    color: #FFFFFF;
     background-color: #2196f3;
 }
