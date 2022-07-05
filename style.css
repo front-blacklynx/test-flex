@@ -377,7 +377,6 @@ a {
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
-
     text-align: center;
     letter-spacing: 0.03em;
 
@@ -643,4 +642,34 @@ footer {
 .linkedin:hover {
     background: #2196f3;
     border-radius: 50px;
+}
+
+
+.icon-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.icon-facebook {
+    width: 10px;
+    height: 20px;
+}
+
+.icon-inst {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-linkendin {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-twitter {
+    width: 20px;
+    height: 17px;
 }
