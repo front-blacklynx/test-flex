@@ -654,56 +654,59 @@ footer {
 
 }
 
-.icon-facebook {
-    width: 10px;
-    height: 20px;
-}
-
-.icon-facebook:hover {
-    fill: #ffffff;
-    width: 45px;
-    height: 45px;
-    border-radius: 50px;
-    background-color: #2196f3;
-}
 
 .icon-inst {
-    width: 20px;
-    height: 20px;
+width: 20px;
+height: 20px;
 
 }
 
 .icon-inst:hover {
-    border-radius: 50px;
     fill: #ffffff;
-    background-color: #2196f3;
-    width: 45px;
-    height: 45px;
+    
 }
-
-.icon-linkendin {
-    width: 20px;
-    height: 20px;
-}
-
-.icon-linkendin:hover {
-    fill: #ffffff;
-    border-radius: 50px;
-    width: 45px;
-    height: 45px;
-    background-color: #2196f3;
-}
-
 .icon-twitter {
-    width: 20px;
-    height: 17px;
+width: 20px;
+height: 16px;
+
 }
 
 .icon-twitter:hover {
     fill: #ffffff;
-    border-radius: 50px;
-    width: 45px;
-    height: 45px;
-    background-color: #2196f3;
+   
 
+}
+.icon-facebook {
+width: 10px;
+height: 20px;
+
+}
+
+.icon-facebook:hover {
+    fill: #ffffff;
+  
+}
+
+.icon-linkendin {
+width: 20px;
+height: 20px;
+}
+
+.icon-linkendin:hover {
+    fill: #ffffff;
+   
+}
+
+.icon-box{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    width: 44px;
+    height: 44px;
+    background-color: #ffffff;
+    border-radius: 50px;
+
+}
+.icon-box:hover{
+    background-color: #2196f3;
 }
