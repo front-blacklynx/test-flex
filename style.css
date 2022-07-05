@@ -661,6 +661,7 @@ footer {
 
 .icon-facebook:hover {
     border-radius: 50px;
+    background-color: #2196f3;
 }
 
 .icon-inst {
@@ -669,11 +670,14 @@ footer {
 
 }
 
-.icon-inst:hover {}
+.icon-inst:hover {
+    background-color: #2196f3;
+}
 
 .icon-linkendin {
     width: 20px;
     height: 20px;
+    background-color: #2196f3;
 }
 
 .icon-linkendin:hover {}
@@ -681,11 +685,13 @@ footer {
 .icon-twitter {
     width: 20px;
     height: 17px;
+    background-color: #2196f3;
 }
 
 .icon-twitter:hover {
 
     width: 20px;
     height: 20px;
+    background-color: #2196f3;
 
 }
